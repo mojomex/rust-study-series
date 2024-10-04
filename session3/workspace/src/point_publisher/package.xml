@@ -1,0 +1,16 @@
+<package format="3">
+  <name>point_publisher</name>
+  <version>0.0.0</version>
+  <description>Publishes a pointcloud at 1 Hz</description>
+  <maintainer email="max.schmeller@tier4.jp">Max SCHMELLER</maintainer>
+  <license>TODO: License declaration</license>
+
+  <depend>rclrs</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>builtin_interfaces</depend>
+
+  <export>
+    <build_type>ament_cargo</build_type>
+  </export>
+</package>
