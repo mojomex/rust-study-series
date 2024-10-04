@@ -1,5 +1,3 @@
-use std::intrinsics::size_of;
-
 use builtin_interfaces::msg::Time;
 use sensor_msgs::msg::PointCloud2;
 
